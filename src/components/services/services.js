@@ -1,5 +1,5 @@
-import whatCanIDo from "../../assets/services/whatcanido.svg"
-import whatCanIDoDark from "../../assets/services/whatcanidoDark.svg"
+import whatCanIDo from "../../assets/services/whatcanIdo.svg"
+import whatCanIDoDark from "../../assets/services/whatcanIdoDark.svg"
 import appIFlu from "../../assets/services/appIFlu.svg"
 import appIFluDark from "../../assets/services/appIFluDark.svg"
 import whatCanE from "../../assets/services/whatcanE.svg"
