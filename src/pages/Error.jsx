@@ -1,21 +1,14 @@
 import React from 'react'
-import Lottie from 'react-lottie'
+import Lottie from 'lottie-react'
 import animationData from '../lottie/animation_404_error.json'
 import { Link } from 'react-router-dom'
 
 const Error = () => {
-    const defaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData,
-        rendererSettings : {
-            preserveAspectRatio :  "xMidYMid slice"
-        } 
-    }
+    
   return (
     <div className=' bg-black text-white min-h-screen font-poppins max-md:flex flex-col justify-center md:grid grid-cols-2 items-center p-5'>
         <div className=' max-w-[600px]'>
-        <Lottie options={defaultOptions}/>
+        <Lottie animationData={animationData} loop={true} />
         </div>
 
         <div className=' max-sm:text-center mx-auto'>

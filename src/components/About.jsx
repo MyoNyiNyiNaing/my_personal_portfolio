@@ -5,19 +5,12 @@ import EducationExperience from "./Education&Experience";
 import Skills from "./Skills";
 import Button from "../components/Button";
 import animationData from "../lottie/animation_about.json";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 
 const About = () => {
   Aos.init();
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  
 
   return (
     <div id="about" className="max-w-[1215px] px-5 mx-auto">
@@ -39,7 +32,7 @@ const About = () => {
         </div>
         <div className=" grid md:grid-cols-2 gap-10 items-center">
           <div className=" max-w-[450px] mx-auto">
-            <Lottie options={defaultOptions} />
+          <Lottie animationData={animationData} loop={true} />
           </div>
 
           <div

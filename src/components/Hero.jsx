@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Typed from "typed.js";
 import animationData from "../lottie/animation_hero.json";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import { Link } from "react-scroll";
 
 const Hero = () => {
@@ -16,14 +16,7 @@ const Hero = () => {
 
   const el = React.useRef(null);
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -96,7 +89,7 @@ const Hero = () => {
           data-aos-delay="100"
           className="mx-auto mb-5 md:mb-0 w-[300px] lg:w-[400px] xl:w-[500px]"
         >
-          <Lottie options={defaultOptions} />
+          <Lottie animationData={animationData} loop={true} />
         </div>
       </div>
     </div>
