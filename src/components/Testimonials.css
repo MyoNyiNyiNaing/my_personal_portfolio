@@ -1,0 +1,32 @@
+.img-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+html.dark .img-wrapper::before {
+  background-color: #150112;
+}
+
+
+.swiper-slide-active .img-wrapper::before{
+    animation: swipe 2s forwards;
+}
+
+@keyframes swipe {
+    0% {
+      
+        left: 0;
+        width: 25%;
+      }
+     
+      100% {
+        right: 0;
+        width: 0%;
+      }
+}

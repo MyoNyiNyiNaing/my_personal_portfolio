@@ -1,0 +1,42 @@
+.bounce-btn {
+    animation: bounce 2s ease infinite;
+
+  }
+
+  @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-18px);}
+      60% {transform: translateY(-10px);}
+  }
+
+
+ 
+
+  .bounce-btn-wrapper.show {
+    animation: show 0.5s linear forwards;
+    
+  }
+
+  .bounce-btn-wrapper.hide {
+    animation: hide 0.5s linear forwards;
+  }
+
+  @keyframes show {
+    from {
+        transform: translateY(200px);
+    }
+    to {
+        transform: translateY(0);
+    }
+  }
+
+  @keyframes hide {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(200px);
+    }
+  }
+
+ 

@@ -1,0 +1,29 @@
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(223, 221, 221);
+    position: relative;
+}
+
+.line::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    transition: width 1s;
+    left: 0;
+    
+}
+
+.group:hover .line::after {
+     width: 100%;
+    
+}
+
+html.dark .line::after{
+    background-color:#666B79;
+} 
+
+
+

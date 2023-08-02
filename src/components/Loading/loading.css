@@ -1,0 +1,25 @@
+.text {
+  font-size: calc(2rem + 1.5vw);
+  font-weight: 900;
+  animation: rotate 1.5s ease;
+}
+
+.page {
+  animation: pageMove 2s ease 2s;
+}
+
+@keyframes rotate {
+  0% {
+    transform:  translateY(100px);
+    transformorigin: bottom left;
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes pageMove {
+  to {
+    opacity: 0;
+  }
+}

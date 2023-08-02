@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.typed-cursor{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* mantine accordion  */
+
+html .mantine-Accordion-chevron  {
+    color:white;
+}
+
+html.dark .mantine-Accordion-chevron  {
+    color:black;
+}
+
+.mantine-Accordion-chevron {
+    width: 10% !important;
+}
+
+ .mantine-Accordion-control  {
+     padding: 10px 0 10px 0;
+}
+
+html .mantine-Accordion-control:hover  {
+    background-color: black;
+}
+
+html.dark .mantine-Accordion-control:hover  {
+    background-color: #fff;
+}
+
+.mantine-Accordion-item {
+    border-bottom: 1px solid #454545;
+}
+
+
+/* swiper  */
+.swiper-slide-active{
+    transform: scale(0.5);
+}

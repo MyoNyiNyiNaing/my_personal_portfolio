@@ -1,0 +1,12 @@
+.intro {
+  animation: intro 1s ease;
+}
+
+@keyframes intro {
+  0% {
+    right: -36px;
+  }
+  100% {
+    right: 0px;
+  }
+}
