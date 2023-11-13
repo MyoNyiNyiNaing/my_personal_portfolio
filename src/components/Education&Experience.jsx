@@ -90,7 +90,7 @@ const EducationExperience = () => {
                   <div className="flex items-start justify-between py-[40px] h-[150px] ">
                     <div className="flex flex-wrap gap-3 w-full items-end justify-between me-5">
                       <div>
-                        <h3 className="text-base font-[500] mb-1">
+                        <h3 className=" text-base_sm sm:text-base font-[500] mb-1">
                           {el?.name}
                         </h3>
                         <p className="text-gray-500 font-[500]">{el?.course}</p>
@@ -138,7 +138,7 @@ const EducationExperience = () => {
                     <div className="flex">
                       <img className="w-[50px] me-5" src={el?.img} />
                       <div>
-                        <h3 className="text-base font-[500] mb-1">
+                        <h3 className="text-base_sm sm:text-base font-[500] mb-1">
                           {el?.name}
                         </h3>
                         <p className="text-gray-500 font-[500]">
