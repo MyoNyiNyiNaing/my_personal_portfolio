@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { services } from "./services";
 import ServicesCard from "./ServicesCard";
 import "aos/dist/aos.css";
@@ -33,7 +33,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="grid items-center w-full grid-cols-1 md:grid-cols-3 grid-rows-auto gap-x-[90px] gap-y-[70px] md:gap-y-4">
+      <div className="grid items-center w-full grid-cols-1 md:grid-cols-3 gap-x-[90px] gap-y-[70px] md:gap-y-4">
         {services.map((service) => (
           <ServicesCard key={service.id} {...service} />
         ))}

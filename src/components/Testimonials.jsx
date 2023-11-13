@@ -8,6 +8,9 @@ import "./Testimonials.css"
 import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/effect-fade';
+import review1 from "../assets/review/review1.jpg"
+import review2 from "../assets/review/review2.webp"
+import review3 from "../assets/review/review3.webp"
 
 const Testimonials = () => {
   const sliderRef = useRef();
@@ -16,7 +19,7 @@ const Testimonials = () => {
       id: 1,
       name: "John Frankin",
       position: "Founder, Double Bunch",
-      img: "https://assets.website-files.com/5fef5619b640934b33c2385e/604788d804dfe4ec1de7bb97_image-1-compressed.jpg",
+      img: review1,
       description:
         "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
     },
@@ -25,7 +28,7 @@ const Testimonials = () => {
       id: 2,
       name: "Jennifer Musk",
       position: "Project Manager@ Microsoft",
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-3-600x600.jpg",
+      img: review2,
       description:
         "This is unbelievable. After using Testiminial Generator my buisness skyrocketed!",
     },
@@ -34,9 +37,9 @@ const Testimonials = () => {
       id: 3,
       name: "Paul Smith",
       position: "General Manager@ Microsoft",
-      img: "https://a6e8z9v6.stackpathcdn.com/hotale/resort/wp-content/uploads/sites/2/2021/02/personnel-2-600x600.jpg",
+      img: review3,
       description:
-        "This is unbelievable. After using Testiminial Generator my buisness skyrocketed!",
+        "After using Testiminial Generator my buisness skyrocketed! He solved complex problems with brilliant design.",
     },
   ];
   return (

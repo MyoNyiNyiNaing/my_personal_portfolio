@@ -27,7 +27,6 @@ const Header = ({ darkMode, themeSwitch }) => {
   };
 
   window.addEventListener("scroll", handleShowNav);
-  // console.log("last scroll",lastScroll, "current scroll", window.scrollY);
 
   return (
     <>
@@ -198,7 +197,7 @@ const Header = ({ darkMode, themeSwitch }) => {
       {/* new navbar  */}
       <nav
         className={`${
-          showNav ? " translate-y-0" : "-translate-y-[200px]"
+          showNav ? " translate-y-0" : " opacity-0 -translate-y-[200px]"
         } z-50 fixed w-full top-0  transition-transform duration-1000 text-white dark:text-black bg-[#150112] dark:bg-white `}
       >
         <div

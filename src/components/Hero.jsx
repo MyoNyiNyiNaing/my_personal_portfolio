@@ -16,8 +16,6 @@ const Hero = () => {
 
   const el = React.useRef(null);
 
-  
-
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Myo Nyi", "a Web Developer"],
@@ -63,16 +61,33 @@ const Hero = () => {
           <div className=" flex flex-col gap-8">
             <div className=" flex items-center gap-5">
               <div className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80">
-                <BsFacebook />
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/myo.nyi.1884787/"
+                >
+                  <BsFacebook />
+                </a>
               </div>
               <div className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80">
-                <BsInstagram />
+                <a
+                  target="blank"
+                  href="https://www.instagram.com/myonyinyinaing88/"
+                >
+                  <BsInstagram />
+                </a>
               </div>
               <div className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80">
-                <BsLinkedin />
+                <a
+                  target="blank"
+                  href="https://www.linkedin.com/in/myo-nyi-a5888b19b/"
+                >
+                  <BsLinkedin />
+                </a>
               </div>
               <div className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80">
-                <BsGithub />
+                <a target="blank" href="https://github.com/MyoNyiNyiNaing">
+                  <BsGithub />
+                </a>
               </div>
             </div>
             <div className=" w-fit">

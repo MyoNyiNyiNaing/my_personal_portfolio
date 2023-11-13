@@ -9,6 +9,8 @@ import javascript from "../assets/logos/javascript.svg";
 import php from "../assets/logos/php.svg";
 import bootstrap from "../assets/logos/bootstrap.svg";
 import tailwindcss from "../assets/logos/tailwindcss.svg";
+import vue from "../assets/logos/vue.svg";
+import laravel from "../assets/logos/laravel.svg";
 
 
 import Skill from "./Skill";
@@ -23,9 +25,9 @@ const Skills = () => {
   ];
 
   const technicalSkills2 = [
-    { id: 1, img: redux, per: 60 },
+    { id: 1, img: vue, per: 75 },
     { id: 2, img: php, per: 70 },
-    { id: 3, img: bootstrap, per: 55 },
+    { id: 3, img: laravel, per: 80 },
     { id: 4, img: tailwindcss, per: 80 },
   ];
 

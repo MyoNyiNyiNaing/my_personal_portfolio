@@ -4,6 +4,9 @@ import "aos/dist/aos.css";
 import { GoDotFill } from "react-icons/go";
 import { PiArrowUpRightBold } from "react-icons/pi";
 import "./Education&Experience.css";
+import exp1 from "../assets/exp/exp1.svg"
+import exp2 from "../assets/exp/exp2.svg"
+import exp3 from "../assets/exp/exp3.svg"
 
 const EducationExperience = () => {
   Aos.init();
@@ -35,7 +38,7 @@ const EducationExperience = () => {
   const workExperience = [
     {
       id: 1,
-      img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab3a74dfa369ea2e92a_Group%2084.svg",
+      img: exp1,
       name: "SpaceFleet",
       position: "Junior Product Designer",
       startDate: "April2019",
@@ -43,7 +46,7 @@ const EducationExperience = () => {
     },
     {
       id: 2,
-      img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab3f70370b7efe8c560_Group%2085.svg",
+      img: exp2,
       name: "MusicMash",
       position: "Information Architect",
       startDate: "April2016",
@@ -51,7 +54,7 @@ const EducationExperience = () => {
     },
     {
       id: 3,
-      img: "https://assets.website-files.com/5fef5619b640934b33c2385e/6087cab33450e64d2fa55138_Group%2086.svg",
+      img: exp3,
       name: "Kingdom",
       position: "UI Designer",
       startDate: "April2016",

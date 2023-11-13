@@ -77,9 +77,9 @@ const Home = () => {
               <section className=" py-[80px]">
                 <Contact />
               </section>
-              <section className=" ">
+              {/* <section className=" ">
                 <Faq />
-              </section>
+              </section> */}
             </main>
             <Footer />
           </main>

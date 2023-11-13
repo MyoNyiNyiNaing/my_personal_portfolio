@@ -1,6 +1,7 @@
 import contact from "../../assets/about/contact2.jpg"
 import hotale from "../../assets/about/hotale.jpg"
 import dashboard from "../../assets/about/dashboard.jpg"
+import goWilds from "../../assets/about/go-wilds.jpeg"
 
 export const projects = [
     {
@@ -22,6 +23,13 @@ export const projects = [
         image: dashboard,
         subTitle: "Web Application",
         title: "Hotale Dashboard",
+        link: "https://hotale-dashboard.vercel.app/login"
+    },
+    {
+        id: 4,
+        image: goWilds,
+        subTitle: "Web Design",
+        title: "Go Wilds",
         link: "https://hotale-dashboard.vercel.app/login"
     },
 

@@ -62,15 +62,10 @@ const Projects = () => {
           <div className=" project-img-overlay-text flex items-center justify-center">
             <div className=" text-center">
               <h1 className=" project-img-overlay-title text-base md:text-[28px] font-bold mb-5 text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 uppercase">
-                {projects[0].title}
+                <a target="blank" href="https://my-google-contact.vercel.app">
+                  {projects[0].title}
+                </a>
               </h1>
-              <div className=" flex items-center justify-center text-red-500 gap-8 project-img-overlay-para">
-                <button className="flex items-center gap-2 ">
-                  View Demo{" "}
-                  <PiArrowSquareOutBold className=" text-[22px] text-white" />
-                </button>
-                <BsGithub className=" text-white text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
-              </div>
             </div>
           </div>
         </div>
@@ -111,8 +106,15 @@ const Projects = () => {
             </div>
           </div>
           <div className=" ml-2 flex items-center gap-10">
-            <Button text={"View Project"} />
-            <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            <a target="blank" href="https://my-google-contact.vercel.app/login">
+              <Button text={"View Project"} />
+            </a>
+            <a
+              target="blank"
+              href="https://github.com/MyoNyiNyiNaing/google-contact-clone"
+            >
+              <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            </a>
           </div>
         </div>
       </div>
@@ -161,8 +163,12 @@ const Projects = () => {
             </div>
           </div>
           <div className=" ml-2 flex items-center gap-10">
-            <Button text={"View Project"} />
-            <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            <a target="blank" href="https://hotale-flax.vercel.app/">
+              <Button text={"View Project"} />
+            </a>
+            <a target="blank" href="https://github.com/MyoNyiNyiNaing/hotale">
+              <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            </a>
           </div>
         </div>
 
@@ -183,15 +189,10 @@ const Projects = () => {
           <div className=" project-img-overlay-text flex items-center justify-center">
             <div className="text-center">
               <h1 className="project-img-overlay-title text-base md:text-[28px] font-bold mb-5 text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 uppercase">
-                {projects[1].title}
+                <a target="blank" href="https://hotale-flax.vercel.app/">
+                  {projects[1].title}
+                </a>
               </h1>
-              <div className=" flex items-center justify-center text-red-500 gap-8 project-img-overlay-para">
-                <button className="flex items-center gap-2 ">
-                  View Demo{" "}
-                  <PiArrowSquareOutBold className=" text-[22px] text-white" />
-                </button>
-                <BsGithub className=" text-white text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
-              </div>
             </div>
           </div>
         </div>
@@ -217,15 +218,13 @@ const Projects = () => {
           <div className=" project-img-overlay-text flex items-center justify-center">
             <div className="text-center">
               <h1 className="project-img-overlay-title text-base md:text-[28px] font-bold mb-5 text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 uppercase">
-                {projects[2].title}
+                <a
+                  target="blank"
+                  href="https://hotale-dashboard.vercel.app/login"
+                >
+                  {projects[2].title}
+                </a>
               </h1>
-              <div className=" flex items-center justify-center text-red-500 gap-8 project-img-overlay-para">
-                <button className="flex items-center gap-2 ">
-                  View Demo{" "}
-                  <PiArrowSquareOutBold className=" text-[22px] text-white" />
-                </button>
-                <BsGithub className=" text-white text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
-              </div>
             </div>
           </div>
         </div>
@@ -270,8 +269,90 @@ const Projects = () => {
             </div>
           </div>
           <div className=" ml-2 flex items-center gap-10">
-            <Button text={"View Project"} />
-            <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            <a target="blank" href="https://hotale-dashboard.vercel.app/login">
+              <Button text={"View Project"} />
+            </a>
+            <a
+              target="blank"
+              href="https://github.com/MyoNyiNyiNaing/hotale-dashboard"
+            >
+              <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* go wild  */}
+      <div className=" py-[50px] flex flex-col-reverse md:grid md:grid-cols-2 items-center max-lg:gap-10">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="100"
+          className=" md:w-[90%]"
+        >
+          <h4 className="mb-2 text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 inline-block font-bold md:text-[18px] uppercase tracking-[4px]">
+            {projects[3].subTitle}
+          </h4>
+          <h1 className="mb-5 text-[26px] md:text-title_sm font-bold leading-[110%] tracking-[1px]">
+            {projects[3].title}
+          </h1>
+          <p className=" mb-5 text-gray-500">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+            incidunt aut fuga nam assumenda quibusdam exercitationem quis, odio,
+            dolor itaque omnis? Ratione nisi veniam cupiditate.
+          </p>
+          <div className=" mb-8 flex items-center flex-wrap gap-3">
+            <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
+              <img width={30} src={html} alt="" />
+              HTML5
+            </div>
+            <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
+              <img width={30} src={css} alt="" />
+              CSS3
+            </div>
+            <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
+              <img width={30} src={react} alt="" />
+              React
+            </div>
+            
+            <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
+              <TbBrandMantine className=" text-[30px] text-blue-500" />
+              Mantine
+            </div>
+          </div>
+          <div className=" ml-2 flex items-center gap-10">
+            <a target="blank" href="https://go-wilds.vercel.app">
+              <Button text={"View Project"} />
+            </a>
+            <a target="blank" href="https://github.com/MyoNyiNyiNaing/go-wilds">
+              <BsGithub className=" text-[30px] hover:scale-125 transition duration-500 hover:opacity-80" />
+            </a>
+          </div>
+        </div>
+
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          data-aos-delay="100"
+          className=" relative project-img-wrapper overflow-hidden max-w-[500px] max-h-[350px]"
+        >
+          <img
+            className=" w-full object-cover object-center"
+            src={projects[3].image}
+            alt=""
+          />
+          <div className=" project-img-overlay"></div>
+
+          <div className=" project-img-overlay-text flex items-center justify-center">
+            <div className="text-center">
+              <h1 className="project-img-overlay-title text-base md:text-[28px] font-bold mb-5 text-transparent bg-clip-text leading-[100%] bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 uppercase">
+                <a target="blank" href="https://hotale-ebon.vercel.app">
+                  {projects[3].title}
+                </a>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
