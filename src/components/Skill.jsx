@@ -20,11 +20,11 @@ const Skill = ({ skill }) => {
       <div>
         <img src={skill.img} width={50} className=" mb-5" alt="" />
       </div>
-      <div class="progress-bar">
+      <div className="progress-bar">
         <div
           per={skill.per + "%"}
           style={inView ? fill : {}}
-          class={` progress-fill bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500
+          className={` progress-fill bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500
                 
                 `}
         ></div>

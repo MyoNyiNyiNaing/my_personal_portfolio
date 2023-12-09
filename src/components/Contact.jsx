@@ -99,11 +99,11 @@ const Contact = () => {
               >
                 <div className=" flex items-center gap-2">
                   <IoMdMail className=" text-[25px]" />
-                  <div class=" sm:text-base_sm">mgmyonyinyi308@gmail.com</div>
+                  <div className=" sm:text-base_sm">mgmyonyinyi308@gmail.com</div>
                 </div>
                 <div className=" flex items-center gap-2">
                   <BsTelephoneFill />
-                  <div class=" sm:text-base_sm">+959790564809</div>
+                  <div className=" sm:text-base_sm">+959790564809</div>
                 </div>
               </div>
             </div>
@@ -187,8 +187,8 @@ const Contact = () => {
                     )}
                   </div>
                   {/* budget  */}
-                  {/* <div class="flex flex-col gap-3">
-                  <label htmlFor="Budget-2" class="font-[700]">
+                  {/* <div className="flex flex-col gap-3">
+                  <label htmlFor="Budget-2" className="font-[700]">
                     Your Budget
                   </label>
                   <div className=" relative text-gray-500">
@@ -200,7 +200,7 @@ const Contact = () => {
                     <select
                       id="Budget-2"
                       required=""
-                      class=" py-4 pl-12 bg-gray-100 outline-none w-full"
+                      className=" py-4 pl-12 bg-gray-100 outline-none w-full"
                     >
                       <option value="First">1k-3k</option>
                       <option value="Second">3k-5k</option>

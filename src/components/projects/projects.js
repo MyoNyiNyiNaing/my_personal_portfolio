@@ -25,13 +25,7 @@ export const projects = [
         title: "Hotale Dashboard",
         link: "https://hotale-dashboard.vercel.app/login"
     },
-    {
-        id: 4,
-        image: goWilds,
-        subTitle: "Web Design",
-        title: "Go Wilds",
-        link: "https://hotale-dashboard.vercel.app/login"
-    },
+    
 
     
 ]

@@ -19,7 +19,7 @@ const ScrollTop = () => {
     }, [])
   return (
     <div className=' fixed bottom-[30px] right-[50px] z-50'>
-        <div className={` ${scrollTop > 100 ? "show" : "hide"} cursor-pointer`}>
+        <div className={` ${scrollTop > 100 ? "show" : "hide"} bounce-btn-wrapper cursor-pointer`}>
         <div onClick={backToTop} className={` animate-bounce w-12 h-12 bg-gradient-to-r from-purple-600 via-red-500 to-yellow-500 text-white rounded-full flex items-center justify-center`} >
                     <MdOutlineKeyboardArrowUp className=' text-[30px]'/>
                 </div>
