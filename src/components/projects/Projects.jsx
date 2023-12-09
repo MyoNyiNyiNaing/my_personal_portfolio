@@ -8,9 +8,9 @@ import html from "../../assets/logos/html-5.svg";
 import css from "../../assets/logos/css-3.svg";
 import react from "../../assets/logos/react.svg";
 import redux from "../../assets/logos/redux.svg";
+import laravel from "../../assets/logos/laravel.svg";
 import { TbBrandMantine } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
-import { PiArrowSquareOutBold } from "react-icons/pi";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -103,6 +103,10 @@ const Projects = () => {
             <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
               <img width={30} src={redux} alt="" />
               Redux
+            </div>
+            <div className=" text-[12px] flex items-center gap-1 bg-gray-100 text-black font-[700] px-2 py-1 w-fit">
+              <img width={30} src={laravel} alt="" />
+              Laravel
             </div>
           </div>
           <div className=" ml-2 flex items-center gap-10">

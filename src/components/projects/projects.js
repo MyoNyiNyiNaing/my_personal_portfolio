@@ -1,7 +1,6 @@
 import contact from "../../assets/about/contact2.jpg"
 import hotale from "../../assets/about/hotale.jpg"
 import dashboard from "../../assets/about/dashboard.jpg"
-import goWilds from "../../assets/about/go-wilds.jpeg"
 
 export const projects = [
     {
